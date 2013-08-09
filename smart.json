@@ -1,0 +1,9 @@
+{
+	"name": "greenlight quality",
+	"description": "Greenlight quality site template",
+	"homepage": "https://github.com/cfriel/greenlight-quality",
+	"author": "cfriel",
+	"version": "0.1.0",
+	"git": "https://github.com/cfriel/greenlight-quality.git",
+	"packages": {}
+}
