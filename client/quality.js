@@ -3,7 +3,7 @@ var version = "1.0";
 
 quality = function(){};
 
-quality.prototype = new quality();
+quality.prototype = new Greenlight.Package();
 
 quality.prototype.routes =   {
     
