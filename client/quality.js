@@ -29,8 +29,10 @@ quality.prototype.default_route = {
 
 Greenlight.Packages.Quality = quality.prototype;
 
-console.log("loading quality package");
+Meteor.startup(function(){
 
-Greenlight.register_template(name, version, Greenlight.Packages.Quality);
+    console.log("loading quality package");
+    
+    Greenlight.register_template(name, version, Greenlight.Packages.Quality);
 
-
+});
