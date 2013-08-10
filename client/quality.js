@@ -27,10 +27,10 @@ quality.prototype.default_route = {
 
 };
 
-Greenlight.Quality = quality.prototype;
+Greenlight.Packages.Quality = quality.prototype;
 
 console.log("loading quality package");
 
-Greenlight.register_template(name, version, Greenlight.Quality);
+Greenlight.register_template(name, version, Greenlight.Packages.Quality);
 
 

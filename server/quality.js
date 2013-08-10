@@ -25,12 +25,12 @@ quality.prototype.metadata = function()
 }();
 
 
-Greenlight.Quality = quality.prototype;
+Greenlight.Packages.Quality = quality.prototype;
 
 Meteor.startup(function(){
     
     console.log("loading quality package");
 
-    Greenlight.register_template(name, version, Greenlight.Quality);
+    Greenlight.register_template(name, version, Greenlight.Packages.Quality);
         
 });
