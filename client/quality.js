@@ -33,6 +33,6 @@ Meteor.startup(function(){
 
     console.log("loading quality package");
     
-    Greenlight.register_template(name, version, Greenlight.Packages.Quality);
+    Greenlight.register_package(name, version, Greenlight.Packages.Quality);
 
 });
