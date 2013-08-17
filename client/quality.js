@@ -9,7 +9,7 @@ quality.prototype.routes =   {
     
     '/quality': function()
     {
-	console.log("calling /quality route");
+	Greenlight.log("calling /quality route");
 
 	return 'quality_page';
     }
@@ -20,7 +20,7 @@ quality.prototype.default_route = {
 
     '/' : function()
     {
-	console.log("calling default route");
+	Greenlight.log("calling default route");
 
 	return 'quality_page';
     }
@@ -31,7 +31,7 @@ Greenlight.Packages.Quality = quality.prototype;
 
 Meteor.startup(function(){
 
-    console.log("loading quality package");
+    Greenlight.log("loading quality package");
     
     Greenlight.register_package(name, version, Greenlight.Packages.Quality);
 
